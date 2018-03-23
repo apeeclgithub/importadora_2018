@@ -1,0 +1,346 @@
+@font-face{
+  font-family: Roboto-Black;
+  src: url(../font/Roboto-Black.ttf);
+}
+@font-face{
+  font-family: Roboto;
+  src: url(../font/Roboto.ttf);
+}
+@font-face{
+  font-family: Roboto-Condensed;
+  src: url(../font/Roboto-Condensed.ttf);
+}
+*{ 
+	border:none;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+body{
+	overflow-x:hidden !important;
+  margin: 0 auto !important;
+  max-width: 960px !important;
+  padding:0px !important;
+  height: auto !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500px !important;
+  font-size: 1rem !important;
+  background-color: #FAFAFA !important;
+}
+
+
+header, #content, footer{
+  width: 100%;
+}
+
+.logo{
+  width:25%;
+}
+
+.powerIcon{
+  margin-top: 26px;
+}
+
+/* Cliente*/
+.mdl-card mdl-shadow--6dp {
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* webkit solution */
+::-webkit-input-placeholder { padding-left:40px; }
+/* mozilla solution */
+input:-moz-placeholder { padding-left:40px; }
+
+.mdl-shadow--6dp{
+  margin:0 auto !important;  
+}
+
+.mdl-navigation__link{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem !important;
+}
+
+.mdl-textfield__input{
+  font-size: 12px !important;
+  color: #4CAF50 !important;
+  font-weight: bold !important;
+}
+
+.mdl-button--raised.mdl-button--colored {
+  margin:10px;
+  background: #01579B !important;
+  color: #fff;
+}
+
+.mdl-data-table{
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+  color: #0277BD;
+}
+
+.fontItem{
+  font-weight: bold;
+}
+
+.formSearchClient{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  padding:10px;
+}
+
+#dataClient{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  padding:10px;
+}
+
+/*fin cliente*/
+
+/*inventario*/
+
+#productBrand{
+  width: 300px !important;
+}
+
+.dataTables_wrapper .dataTables_filter input{
+  height: 30px;
+  border-bottom: 1px solid rgba(0,0,0, 0.12);
+  background: 0;
+  padding-top: 12px;
+}
+
+#productColor{
+  width: 300px !important;
+}
+
+.mdl-textfield--floating-label.is-invalid .mdl-textfield__label{
+  color:black !important;
+}
+
+.mdl-data-table td:first-of-type, .mdl-data-table th:first-of-type{
+  border-bottom: 1px solid black !important;
+}
+
+.mdl-data-table__cell--non-numeric.mdl-data-table__cell--non-numeric{
+  border-bottom: 1px solid black !important;
+
+}
+
+.mdl-data-table td:last-of-type, .mdl-data-table th:last-of-type{
+  border-bottom: 1px solid black !important;  
+}
+
+table.dataTable thead th, table.dataTable thead td{
+  border-bottom: 1px solid black !important;
+}
+
+table.dataTable.row-border tbody tr:first-child th, table.dataTable.row-border tbody tr:first-child td, table.dataTable.display tbody tr:first-child th, table.dataTable.display tbody tr:first-child td{
+  border-bottom: 1px solid black !important;  
+}
+
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td{
+  border-bottom: 1px solid black !important;  
+}
+
+.mdl-textfield__label{
+  color:black !important;
+}
+
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1{
+  background-color: transparent !important;
+}
+
+table.dataTable.order-column tbody tr>.sorting_1, table.dataTable.order-column tbody tr>.sorting_2, table.dataTable.order-column tbody tr>.sorting_3, table.dataTable.display tbody tr>.sorting_1, table.dataTable.display tbody tr>.sorting_2, table.dataTable.display tbody tr>.sorting_3{
+  background-color: transparent !important;
+}
+
+#textAreaDesc{
+  width:100% !important;
+}
+
+.formAddProduct{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  padding: 10px;
+}
+
+.contentProducts{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  padding: 10px;
+}
+
+.searchProduct{
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.buttonProducts{
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+select {
+  font-family: inherit;
+  background-color: transparent;
+  padding: 4px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0, 0.12);
+}
+
+.mdl-data-table th{
+  font-size: 14px !important;
+  font-family: 'Roboto-Black';
+}
+
+/* Remove focus */
+select:focus {
+  outline: none;
+}
+
+select:checked { color: red; }
+
+
+/* Hide label */
+.mdl-selectfield label {
+  display: none;
+}
+
+/* Use custom arrow */
+.mdl-selectfield select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.mdl-selectfield {
+  font-family: 'Roboto','Helvetica','Arial',sans-serif;
+  position: relative;
+}
+.mdl-selectfield:after {
+  position: absolute;
+  top: 0.75em;
+  right: 0.5em;
+  /* Styling the down arrow */
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: '';
+  border-left: .25em solid transparent;
+  border-right: .25em solid transparent;
+  border-top: 0.375em solid rgba(0,0,0, 0.12);
+  pointer-events: none;
+}
+/*modal marca inventario*/
+.interior {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn {
+  background-color: #01579B !important;
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  height: 36px !important;
+  margin-left: 10px;
+}
+.modal-window {
+  position:fixed;
+  background-color: rgba(255,255,255,0.5);
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:999;
+  opacity:0;
+  pointer-events:none;
+  -webkit-transition:all 0.3s;
+  -moz-transition:all 0.3s;
+  transition:all 0.3s;
+}
+.modal-window:target {
+  opacity:1;
+  pointer-events:auto;
+  background-color: #90CAF9;
+}
+.modal-window>div {
+  width:400px;
+  position:relative;
+  margin:5% auto;
+  padding:2rem;
+  background:#fff;
+  color:#444;
+}
+.modal-window header {
+  font-weight:bold;
+}
+.modal-close {
+  color:#aaa;
+  line-height:50px;
+  font-size:80%;
+  position:absolute;
+  right:0;
+  text-align:center;
+  top:0;
+  width:70px;
+  text-decoration:none;
+}
+
+#modal-close{
+  text-decoration:none;
+  color: white !important; 
+}
+.modal-close:hover {
+  color:#000;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.btnIcons{
+  color:black !important;
+}
+
+.btnRight{
+  float: right;
+}
+
+
+.closingCash{
+ padding: 10px;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);   
+}
+
+/*venta*/
+
+tr td input{
+  height: 10px;
+  border: 1px solid rgba(0,0,0, 0.12);
+  background: 0;
+  padding-top: 12px;
+  text-align: right;
+  padding: 10px;
+  width: 60px;
+}
+
+.addClientSail>div{
+  width:978px !important;
+}
+
+#valor_total input{
+  font-size:2rem !important;
+  text-align: right;
+}
+
+.noColor a{
+  color: white !important;
+  text-decoration: none !important;
+}
